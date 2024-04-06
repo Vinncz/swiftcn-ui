@@ -8,4 +8,4 @@ Coming soon
 TBD
 
 ## License
-Licensed under the [MIT license](https://github.com/Vinncz/swiftcn-ui/blob/main/LICENSE.md)
+Licensed under the [MIT license](https://github.com/Vinncz/swiftcn-ui/blob/main/LICENSE)
