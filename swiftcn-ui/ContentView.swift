@@ -1,19 +1,20 @@
-//
-//  ContentView.swift
-//  swiftcn-ui
-//
-//  Created by Vin on 12/04/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            uiButton (
+                color: .pink,
+                systemImage: "hand.tap.fill", 
+                type: .primary
+            ) {
+                Text("Tap me!")
+            } 
+            .onTapGesture() {
+                print("Why")
+            }
+            
+            uiButton(action:  {})
         }
         .padding()
     }
